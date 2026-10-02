@@ -1,0 +1,58 @@
+{
+  "gameTitle": "P.A.N.A.H.O.N.",
+  "subtitle": "Temporal Castaways Tabletop Time-Travel Game",
+  "playerCount": 4,
+  "gameTimeLimitMinutes": 40,
+  "timelineMeter": {
+    "maxLimit": 10,
+    "criticalThreshold": 7,
+    "collapseDefeat": true
+  },
+  "paradoxMeter": {
+    "maxLimit": 5,
+    "turnLossThreshold": 5,
+    "scorePenaltyPerPoint": 10
+  },
+  "energy": {
+    "starting": 10,
+    "maximum": 15,
+    "timeGateCost": 2,
+    "timeGateCostRiftWalker": 1
+  },
+  "scoring": {
+    "missionCompleted": 50,
+    "artifactReturnedCorrectEra": 35,
+    "artifactReturnedWrongEraParadox": 2,
+    "clueDiscovered": 5,
+    "energyRemainingMultiplier": 2,
+    "paradoxDeductionMultiplier": 10,
+    "timelineBonusStable": 20,
+    "timelineBonusModerate": 10
+  },
+  "eras": [
+    {
+      "id": "SpanishEra",
+      "name": "Spanish Era",
+      "years": "1521-1898",
+      "theme": "Galleon Trade, Intramuros, Ecclesiastical Relics"
+    },
+    {
+      "id": "AmericanEra",
+      "name": "American Era",
+      "years": "1898-1946",
+      "theme": "Commonwealth, Telegraphs, Industrial Modernization"
+    },
+    {
+      "id": "JapaneseEra",
+      "name": "Japanese Era",
+      "years": "1942-1945",
+      "theme": "Guerrilla Resistance, Wartime Intelligence"
+    },
+    {
+      "id": "MythLegendEra",
+      "name": "Myth & Legend Era",
+      "years": "Pre-Colonial",
+      "theme": "Bathala, Bakunawa, Ancient Gold & Folklore"
+    }
+  ]
+}

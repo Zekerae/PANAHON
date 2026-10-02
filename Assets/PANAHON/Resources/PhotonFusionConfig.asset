@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d289a8749352f754bb8030dd67a526c9, type: 3}
+  m_Name: PhotonFusionConfig
+  m_EditorClassIdentifier: 
+  fusionAppId: 7eafcbb2-e4ee-4794-babf-11e8fc856e95
+  region: asia
+  gameVersion: 1.0.0
+  fusionMode: 0
+  maxPlayers: 4
+  defaultRoomPrefix: PANAHON-
+  connectionTimeoutSeconds: 15
